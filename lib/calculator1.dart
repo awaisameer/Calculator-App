@@ -270,8 +270,8 @@ class _Calculator_1State extends State<Calculator_1> {
       double eval = exp.evaluate(EvaluationType.REAL, cm);
       answer = eval.toString();
     } else {
-      // Handle the case when userinput is empty
-      answer = ""; // or any other default value you prefer
+    
+      answer = "";
     }
   }
 }
